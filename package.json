@@ -1,39 +1,21 @@
 {
-  "name": "react-mobservable-boilerplate",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS + mobservable project with JSX, ES6 compilation and hot code reloading",
-  "scripts": {
-    "start": "node server.js",
-    "lint": "eslint src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mweststrate/react-mobservable-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "mobservable",
-    "starter-kit"
-  ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mweststrate/react-mobservable-boilerplate/issues"
-  },
-  "homepage": "http://mweststrate.github.com/mobservable",
-  "devDependencies": {
-    "babel-core": "^5.4.7",
-    "babel-eslint": "^3.1.9",
-    "babel-loader": "^5.1.2",
-    "eslint-plugin-react": "^2.3.0",
-    "react-hot-loader": "^1.2.7",
-    "webpack": "^1.9.6",
-    "webpack-dev-server": "^1.8.2"
-  },
+  "description": "",
+  "main": "bundle.js",
   "dependencies": {
+    "babel-loader": "^5.3.2",
     "mobservable": "^0.6.0",
-    "react": "^0.13.0"
-  }
+    "babel-core": "^5.8.21",
+    "react": "^0.13.3",
+    "path": "^0.11.14",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
